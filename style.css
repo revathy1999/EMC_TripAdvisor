@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+  font-family: "Gabarito" sans-serif;
+  
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+
+}
+.navbar__s1 img {
+  width: 160px;
+}
+.navbar__s2 {
+  padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__s2 input {
+  border: none;
+  width: 50%;
+  background-color: transparent;
+}
+.navbar__s3 {
+  display: flex;
+  gap: 30px;
+}
+.navbar__s3 p{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.navbar__s3 button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.navbar__s4 img{
+    display: none;
+}
+/* categories */
+.categories{
+    display: flex;
+gap: 50px;
+padding: 30px;
+justify-content: center;
+}
+.categories p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;    
+}
+.categories p:hover{
+    text-decoration: underline;
+}
+.categories img{
+    width: 25px;
+}
+.trip__wallpaper{
+    position: relative;
+    padding: 30px;
+}
+.trip__wallpaper img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+.Tophotels{
+    padding: 30px;
+}
+.hotel__desc{
+    position: absolute;
+top: 60%;
+left: 5%;
+
+}
+.hotel__desc h1, .hotel__desc p{
+    color: white;
+}
+.hotel__desc h1{
+    font-size: 52px;
+}
+.hotel__desc p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.hotel__desc button{
+    border:none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    
+}
+.hotel__desc button:hover{
+    background-color: transparent;
+transition: 1s;
+border: 2px solid white;
+color: white;
+}
+.Tophotels h1, .Tophotels p{
+margin-top: 20px;
+}
+.hotels__specialities__images{
+    position: relative;
+    width: 280px;
+    height: 220px;
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+.hotels__specialities__images img{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+border-radius: 10px;
+}
+.hotels__specialities__images h2{
+    position: absolute;
+    bottom: 4%;
+    color: white;
+    left: 5%;
+    font-size: 28px;
+}
+.hotels__specialities{
+    display: flex;
+    justify-content: space-between; 
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.Experience{
+    padding: 30px;
+}
+.Experience h1{
+    margin-top: 30px;
+}
+.Experience p{
+margin-top: 10px;
+font-size: 18px;
+}
+
+.Top__ratings p{
+margin-bottom: 5px;
+}
+.Top__ratings h5, .Top__ratings p{
+    padding: 5px;
+}
+.Experience__ratings{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;    
+     flex-wrap: wrap;
+}
+.Top__ratings{
+ position: relative;
+  width: 350px;
+ 
+}
+.tour__images{
+    position: relative;
+    flex-grow: 1;
+    flex-basis: 20%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.tour{
+  
+   height: 350px;
+}
+
+.likeimage{
+border-radius: 23px;
+    width: 20px;
+    background-color: white;
+    padding: 15px;
+    position: absolute;
+    top: 30px;
+    z-index: 0;
+    right: 30px;
+}
+.tour__title
+{
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.3;
+}
+.sponser{
+    display: flex;
+   gap: 10%;
+    margin-top: 20px;
+    background-color: #F2ECF9;
+   height: 550px;
+}
+.sponser__image img{
+   width: 500px;
+   position: relative;
+   top: 30px;
+   left: 30px;  
+}
+.sponser__name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponser__name img{
+    width: 30px;
+}
+.sponser__logo__image{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sponser__name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sponser__name h2{
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+.sponser__name p{
+    font-size: 17px;
+}
+.sponser__name button{
+    margin-top: 20px;
+    border:none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 25px;
+}
+.sponser__name button:hover{
+    background-color: transparent;
+transition: 1s;
+border: 2px solid black;
+color: black;
+}
+/* footer */
+.footer{
+    padding: 30px;
+    margin-top: 50px;
+ background-color: #F2F2F2;   
+}
+.footer__one{
+    display: flex;
+    gap: 30px;
+    margin: 5px;
+}
+.footer__one p{
+    margin-top: 5px;
+}
+.footer__img{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.footer__img img{
+    width: 40px;
+}
+.footer__img p{
+    margin-top: 10px;
+   
+}
+/* Media queries */
+@media screen and (max-width:850px) {
+    body{
+        font-size: 15px;
+    }
+    .hotels__specialities__images{
+        flex-basis: 40%;
+    }
+    .tour__images{
+       flex-basis: 50%;
+    }
+    .categories{
+        display: none;
+    }
+    .sponser__image img{
+        width: 400px;
+    }
+    .sponser{
+        height: 450px;
+    }
+    .trip__wallpaper h1{
+        font-size: 38px;
+    }
+    .navbar__s2, .navbar__s3{
+        display: none;
+    }
+    .navbar__s4 img{
+        display: block;
+        width: 30px;
+    }
+}
+@media  screen and (max-width:650px) {
+     .Experience__ratings{
+    justify-content: center;
+    }
+    .sponser__image img{
+        width: 300px;
+    }
+    .sponser__name h2{
+        font-size: 24px;
+    }
+    .sponser__name p{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .sponser__logo__image{
+        gap: 3px;
+    }
+     .trip__wallpaper h1{
+        font-size: 36px;
+        margin-left: 8px;
+    }
+    .hotel__desc p{
+        font-size: 16px;
+       width: 75%;
+        margin-left: 8px;   
+    }
+    .hotel__desc button{
+        margin-left: 5px;
+    }
+}
